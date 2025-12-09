@@ -1,0 +1,31 @@
+state
+
+State არის ცვლადი, რომელსაც React უთვალიერებს ცვლილებებს.
+როდესაც state იცვლება — კომპონენტი თავიდან გამოისახება.
+ეს არის კომპონენტის „ცოცხალი მონაცემი“.
+
+setter function
+
+Setter ფუნქცია არის ფუნქცია, რომელიც იყენებთ state-ის შეცვლისთვის.
+მაგალითად:
+setCount(5) — ამით იცვლება state და UI თავიდან იხატება.
+
+hook
+
+Hook არის React-ის სპეციალური ფუნქცია, რომელიც გაძლევს React-ის შესაძლებლობებზე წვდომას
+(მაგ: state, lifecycle, refs…).
+Hooks მუშაობს მხოლოდ functional component-ებში.
+
+built-in hook
+
+ეს არის React-ში ჩაშენებული hook-ები, რომლებიც React-მა თავად მოგვცა.
+მაგალითად: useState, useEffect, useRef და სხვ.
+
+useState
+
+useState არის built-in hook, რომელიც ქმნის state-ს + setter function-ს.
+
+component re-render
+
+როდესაც state ან props იცვლება, React თავიდან ხატავს კომპონენტს — ამას ეწოდება re-render.
+ანუ UI ახლდება ახალი მონაცემებით.

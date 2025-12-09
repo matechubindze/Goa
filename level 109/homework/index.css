@@ -1,0 +1,24 @@
+body {
+    background: black;
+    color: white;
+    font-family: Arial;
+    padding: 20px;
+}
+
+#movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie {
+    width: 200px;
+    background: #222;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 10px;
+}
