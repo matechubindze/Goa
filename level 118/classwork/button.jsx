@@ -1,5 +1,9 @@
+import React, { useContext } from "react";
+import { MyContext } from "./context/MyContext";
+
 function Button() {
-  return <button>Mate</button>;
+  const value = useContext(MyContext);
+  return <p>{value}</p>;
 }
 
 export default Button;
