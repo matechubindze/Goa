@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "create-router": "^1.1.0",
     "react-error-boundary": "^6.1.0"
   }
 }
