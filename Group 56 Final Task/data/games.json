@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Minecraft",
+        "genre": "Sandbox",
+        "platform": "PC",
+        "rating": 9,
+        "createdAt": "2024-01-01"
+    },
+    {
+        "id": 2,
+        "name": "FC 26",
+        "genre": "Sports",
+        "platform": "PS5",
+        "rating": 8,
+        "createdAt": "2024-01-02"
+    }
+]
