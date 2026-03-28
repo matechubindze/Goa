@@ -1,0 +1,5 @@
+db.films_collection.find({ genres: ["Sci-Fi", "Adventure", "Drama"] })
+
+db.films_collection.find({ genres: "Drama" })
+
+db.films_collection.find({ genres: { $all: ["Drama", "Adventure"] } })
