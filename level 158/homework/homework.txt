@@ -1,0 +1,47 @@
+**Code i typed using mongodb**
+db.users.insertOne({ name: "Ana", age: 24, city: "Tbilisi" })
+
+db.products.insertOne({ name: "Laptop", price: 1200, inStock: true })
+
+db.customers.insertOne({
+name: "David",
+    age: 31,
+    address: {
+    city: "Batumi",
+    street: "Rustaveli",
+    number: 104
+  }
+})
+
+db.products.insertMany([
+  { name: "Phone", price: 800, category: "Electronics" },
+  { name: "Tablet", price: 600, category: "Electronics" },
+  { name: "Chair", price: 150, category: "Furniture" },
+  { name: "Desk", price: 300, category: "Furniture" }
+])
+
+db.students.insertMany([
+  { name: "Nino", age: 20, courses: ["Math", "Physics"] },
+  { name: "Giorgi", age: 22, courses: ["History", "Literature"] },
+  { name: "Luka", age: 19, courses: ["Biology", "Chemistry"] }
+])
+
+db.users.updateOne(
+  { name: "Ana" },
+  { $set: { age: 25 } }
+)
+
+db.users.updateOne(
+  { name: "Giorgi" },
+  { $set: { city: "Batumi" } }
+)
+
+db.customers.updateOne(
+  { name: "David" },
+  { $set: { "address.city": "Kutaisi" } }
+)
+
+db.customers.updateOne(
+  { name: "Ana" },
+  { $set: { "address.street": "Chavchavadze" } }
+)
