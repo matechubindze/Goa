@@ -1,0 +1,2 @@
+db.students_collection.updateOne({name:"fZgFcDEwrU"}, {$push :{tags:"street"}})
+db.students_collection.updateOne({name:"fZgFcDEwrU"}, {$set :{rating: 5}}, {upsert:true})
