@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const cardStyle = {
     border: "1px solid gray",
     padding: "10px",
@@ -16,7 +15,7 @@ const cardStyle = {
 };
 
 export default UserCard;
-=======
+
 const cardStyle = {
     border: "1px solid gray",
     padding: "10px",
@@ -34,4 +33,3 @@ const cardStyle = {
 };
 
 export default UserCard;
->>>>>>> 3e4aedcfcb60f0755a974138520d60342f27e98b
